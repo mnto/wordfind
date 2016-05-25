@@ -6,11 +6,10 @@ using namespace std;
 
 int mypri(const string & item)
 {
-	string vowels = "aeiouy";
+	// return number of letters
 	int sum = 0;
 	for (size_t i = 0; i < item.size(); i++) {
-		if (vowels.find(item[i]) != string::npos)
-			sum++;
+		sum++;
 	}
 	return sum;
 }
