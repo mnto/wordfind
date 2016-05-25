@@ -6,6 +6,7 @@ using namespace std;
 
 int mypri(const string & item)
 {
+	// return number of letters
 	int sum = 0;
 	for (size_t i = 0; i < item.size(); i++) {
 		sum++;
